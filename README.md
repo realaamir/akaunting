@@ -23,6 +23,7 @@
 -   Install Akaunting admin panel.
 -   Create api for creating customers using the Akaunting native methods.
 -   Create api for Invoice and Billing that will send to multiple customers by different admin users.
+-   All the data will be visible on dashboard that is created by api.
 
 ## Framework
 
