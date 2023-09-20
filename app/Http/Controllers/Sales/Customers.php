@@ -86,6 +86,35 @@ class Customers extends Controller
     }
 
     /**
+     * Store a newly created resource in storage using api.
+     *
+     * @param  Request  $request
+     *
+     * @return Response
+     */
+    public function createCustomer(Request $request)
+    {
+        echo "dadasd"; die;
+        // $response = $this->ajaxDispatch(new CreateContact($request));
+
+        // if ($response['success']) {
+        //     $response['redirect'] = route('customers.show', $response['data']->id);
+
+        //     $message = trans('messages.success.added', ['type' => trans_choice('general.customers', 1)]);
+
+        //     flash($message)->success();
+        // } else {
+        //     $response['redirect'] = route('customers.create');
+
+        //     $message = $response['message'];
+
+        //     flash($message)->error()->important();
+        // }
+
+        // return response()->json($response);
+    }
+
+    /**
      * Duplicate the specified resource.
      *
      * @param  Contact  $customer

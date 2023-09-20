@@ -81,4 +81,11 @@ Route::group(['as' => 'api.'], function () {
     // Translations
     Route::get('translations/{locale}/all', 'Common\Translations@all')->name('translations.all');
     Route::get('translations/{locale}/{file}', 'Common\Translations@file')->name('translations.file');
+
+    //create Customer
+    Route::get('customer', 'Sales\Customers@createCustomer');
+
+
+    //create invoices
+    Route::get('invoice', 'Sales\Invoices@createInvoices');
 });
