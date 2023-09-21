@@ -1,11 +1,11 @@
 ﻿# Author
 
 -   @Aamir Shaikh
--   Submission Date: 20th Sep 2022
+-   Submission Date: 20th Sep 2023
 
 # Challenge
 
--   We are given with a challenge to create a Akaunting Backend backend api.
+-   We are given with a challenge to create a Akaunting Backend Api.
 -   Create customer using api that will be show in admin panel.
 -   Create invoice and billing between differnt users using api that will be show in admin panel.
 -   Implement new Customer api.
